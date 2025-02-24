@@ -87,4 +87,35 @@ SELECT estilo, AVG(Albuns)
 FROM bandas
 GROUP BY estilos 
 HAVING AVG(Albuns)>10
+
+=============================================================================================================
+
+Pergunta de negócio utilizando SQL  :
+
+Com multiplos filtros (ex: clientes de SP ou RJ com idade acima de 30)
+Com cálculos matemáticos e estatístico(ex: média de idade de uma turma )
+Com filtros aproximados (ex : pacientes que contenham joão no nome)
+Com múltiplas agregações( ex : agrupar produtos por fornecedores e transportadores)
+
+### Múltiplos Filtros
+
+Na vida de ciententa de dados será muito comum você ter que criar filtros deiferentes para
+analizar os dados , buscar insights e responder algumas perguntas de negócio
+
+A gente já viu como fazer um filtro para linhas sem agregação com o WHERE
+
+Não vimos muitos exemplos , no entanto, de múltiplo filtros.
+Vamos fazer isso agora ! Para combinar critérios de filtros 
+utilizamos as palavras -chaves AND e OR 
+
+
+Construção de consulta 
+1 -  em que tabelas estão os dados necessários 
+2 - você precisa de todas as linhas ou precisa de um filtro? 
+3 - você precisa de todas as colunas ou somente de algumas ? 
+
+
+
+
+## SQL INTERMEDIARIO 
  
